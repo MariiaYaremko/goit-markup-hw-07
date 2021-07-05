@@ -23,3 +23,28 @@
     margin-right: 10px;
     fill: currentColor;
   }
+  .auth-nav__item {
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+  .auth-nav__link {
+  &:hover, &:focus {
+    color: var(--accent-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  }
+  &:hover .auth-nav__ico, &:focus .auth-nav__ico {
+    fill: var(--accent-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  }
+}
+  // .auth-nav__link:hover .auth-nav__ico,
+  // .auth-nav__link:focus .auth-nav__ico {
+  //   fill: var(--accent-color);
+  //   transition-property: color;
+  //   transition-duration: 250ms;
+  //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)}
