@@ -3,8 +3,8 @@
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: auto;
-  }
-  .auth-nav__link {
+  
+  &__link {
     color: var(--secondary-text-color);
     font-style: 500;
     font-size: 14px;
@@ -16,13 +16,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
   }
-  .auth-nav__item {
+  &__item {
     margin-left: 50px;
   }
-  .auth-nav__ico {
+  &__ico {
     margin-right: 10px;
     fill: currentColor;
   }
+}
   .auth-nav__item {
   &:last-child {
     margin-right: 0px;

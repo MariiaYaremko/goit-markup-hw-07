@@ -5,8 +5,8 @@
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-.cards__item {
+
+&__item {
   width: calc ((100%-60)/3);
   height: 404px;
   margin-top: 30px;
@@ -20,9 +20,10 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards__top {
+&__top {
   position: relative;
   overflow: hidden;
+}
 }
 .hower-overlay {
   position: absolute;

@@ -12,6 +12,21 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+
+  &__icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #2a2a2a;
+    border-radius: 4px;
+  }
+  &__underline {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+}
+.consent {
+  margin-left: 7px;
 }
 
 .checkbox {
@@ -19,31 +34,18 @@
   -moz-appearance: none;
   appearance: none;
   position: absolute;
-}
-.form-checkbox__icon {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 2px solid #2a2a2a;
-  border-radius: 4px;
-}
-.consent {
-  margin-left: 7px;
+
+  &__text {
+    display: inline-block;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
 }
 
-.checkbox__text {
-  display: inline-block;
-  align-items: center;
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.form-checkbox__underline {
-  color: var(--accent-color);
-  text-decoration: underline;
-}
 .checkbox {
   &:checked + .form-checkbox__icon {
     border-color: transparent;

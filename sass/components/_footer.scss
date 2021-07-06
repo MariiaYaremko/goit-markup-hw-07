@@ -2,8 +2,7 @@
   background-color: var(--secondary-bg-color);
   margin-bottom: 0px;
   height: 252px;
-}
-.footer {
+
   &__container {
     display: flex;
     align-items: baseline;
@@ -30,17 +29,18 @@
 .footer-social {
   width: 206px;
   margin-left: 70px;
-}
-.footer-social__title {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-}
-.footer-social__social-netw__item {
-  color: var(--primary-white-color);
-  background: rgba(255, 255, 255, 0.1);
+
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
+  &__social-netw__item {
+    color: var(--primary-white-color);
+    background: rgba(255, 255, 255, 0.1);
+  }
 }
 .address {
   color: var(--primary-white-color);
